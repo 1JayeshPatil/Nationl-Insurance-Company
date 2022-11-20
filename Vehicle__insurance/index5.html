@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="icon"
+    type="image/x-icon"
+    href="/Front__page/images/logo.jpg"
+  />
+  <link rel="stylesheet" href="styles5.css">
+    <a class="HOME" href="/Front__page/index.html">HOME</a>
+    <title>VEHICLE INSURANCE CLAIM FORM</title>
+</head>
+<body>
+    <form> 
+        <div class="container">  
+         <h1 class="FO-"> VEHICLE INSURANCE CLAIM FORM </h1> 
+        <hr>  
+        <img class="Con" src="/Vehicle__insurance/images/CONCERN.jpg" alt="">
+        <span class="Hel">Insurance Holder Details</span>
+        <br>
+        <span class="FO">Insurance Holder Name *</span>
+        <br>
+        <label class="FO"> Firstname </label>   
+      <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+      <label class="FO"> Middlename: </label>   
+      <input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+      <label class="FO"> Insurance Holder Bith Date: </label>   
+      <input type="date" placeholder="Date" size="15"required />   
+      <div>  
+      <label  class="FO">   
+      <span>Insurance Holder Gender :</span> 
+      </label ><br>  
+      <input  class="FO" type="radio" value="Male" name="gender" checked > Male 
+      <br>  
+      <input class="FO" type="radio" value="Female" name="gender"> Female  
+      <br> 
+      <input  class="FO" type="radio" value="Other" name="gender"> Other      
+      </div>  
+      <div>  
+        <label  class="FO">   
+        <span>Insurance Holder Status :</span> 
+        </label >
+        <br>  
+        <input  class="FO" type="radio" value="Single" name="Status" checked > Single 
+        <br>  
+        <input  class="FO" type="radio" value="Married" name="Status"  > Married 
+        <br>  
+        <input  class="FO" type="radio" value="Employ" name="Status"  > Employ 
+        <br>  
+        <input  class="FO" type="radio" value="Full Time Student" name="Status" > Full Time Student
+        <br>  
+        <input  class="FO" type="radio" value="Part Time Student" name="Status" > Part Time Student
+      </div> 
+      <div>  
+        <label  class="FO">   
+        <span>Insurance Holder Relationship to Insured :</span> 
+        </label >
+        <br>  <input   type="radio" value="Self" name="Insured" checked > Self
+        <br>  <input   type="radio" value="Spouse" name="Insured" > Spouse
+        <br>  <input  type="radio" value="Child" name="Insured" > Child 
+      </div>     
+      <label  class="FO">   
+      Phone :  
+      </label>  
+      <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+      <input type="text" name="phone" placeholder="phone no." size="10" required>   
+      <h4  class="FO">Current Address :  </h4>
+      <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+      </textarea>  
+       <label  class="FO" for="email"><b>Email</b></label>  
+       <input type="text" placeholder="Enter Email" name="email" required>  
+        
+          <label  class="FO" for="psw"><b>Password</b></label>  
+          <input type="password" placeholder="Enter Password" name="psw" required>   
+          <button type="submit" class="registerbtn">SUBMIT</button>    
+      </form>   
+</body>
+</html>

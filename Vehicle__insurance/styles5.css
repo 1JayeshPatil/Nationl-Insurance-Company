@@ -1,0 +1,102 @@
+body{  
+    font-family: Calibri, Helvetica, sans-serif;  
+    background:gainsboro;  
+    background-size: cover;
+    background-position: center;
+    
+  }  
+
+  .HOME{
+    font-size: x-large;
+    text-decoration: none;
+    padding-left: 45%;
+    color: black;
+  }
+  
+  .Hel{
+    padding: 10%;
+    color: black;
+    font-size: xx-large;
+
+  }
+
+  .Con{
+    width: 100%;
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+  }
+  
+  .Login{
+  padding-left: 50%;
+  color: red;
+  }
+
+  .FO-{
+    font-size: x-large;
+    color: black;
+  }
+
+  .FO__{
+    color: black;
+  }
+  
+  .FO_{
+    color: black;
+    font-size:xx-large;
+  }
+
+  .FO{
+      color: black;
+  }
+  
+  .FOR{
+    font-size: x-large;
+      color: black;
+  }
+  
+  .container {  
+    border: double blue;
+    padding: 50px; 
+    background-color: transparent;  
+    padding-top: 5%;
+    padding-left:32%;
+    padding-right: 32%;
+  }  
+    
+  input[type=text], input[type=password], textarea {  
+    width: 100%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: #f1f1f1;  
+  }  
+  
+  input[type=text]:focus, input[type=password]:focus {  
+    background-color:aquamarine;  
+    outline: none;  
+  }  
+   div {  
+        padding: 10px 0;  
+           } 
+  
+  hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 25px;  
+  }  
+  
+  .registerbtn {  
+    background-color: blue;  
+    color: white;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 100%;  
+    opacity: 0.9;  
+  }  
+  
+  .registerbtn:hover {  
+    opacity: 1;  
+  }  
